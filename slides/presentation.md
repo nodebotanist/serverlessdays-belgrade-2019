@@ -48,12 +48,6 @@
 
 ---
 
-
-# Reducing Overhead with Isolates 
-
-![inline](./img/isolates.png)
-
----
 ![](./img/Carina_Nebula.jpg)
 
 # Does anyone else use this model **in production?**
@@ -199,6 +193,12 @@ Between the just-in-time optimization of V8 and the compile-time optimization of
 * No containers to spin up, just V8 Isolates
 * According to serverless-benchmark.com: ~91ms
 * Internal measurement clocks in at 5ms
+
+---
+
+# How we get rid of Cold Starts 
+
+![inline](./img/isolates.png)
 
 ---
 ![](./img/Carina_Nebula.jpg)
