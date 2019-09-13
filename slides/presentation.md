@@ -139,6 +139,11 @@ We decided to use Web standards to meet the needs of the platform in order to ke
 ---
 ![](./img/Carina_Nebula.jpg)
 
+#[fit] WebAssembly Demo
+
+---
+![](./img/Carina_Nebula.jpg)
+
 # WebAssembly is **changing the web**.
 
 ---
@@ -155,11 +160,6 @@ We decided to use Web standards to meet the needs of the platform in order to ke
 ![](./img/Carina_Nebula.jpg)
 
 ![inline](./img/now.png)
-
----
-![](./img/Carina_Nebula.jpg)
-
-#[fit] WebAssembly Demo
 
 ---
 ![](./img/Carina_Nebula.jpg)
@@ -197,7 +197,7 @@ Between the just-in-time optimization of V8 and the compile-time optimization of
 # Getting rid of **Cold Starts**
 
 * No containers to spin up, just V8 Isolates
-* According to serverless-benchmark.com: ~85ms
+* According to serverless-benchmark.com: ~91ms
 * Internal measurement clocks in at 5ms
 
 ---
